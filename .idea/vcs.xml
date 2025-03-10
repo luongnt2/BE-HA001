@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../My-Follow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../auth-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../echo-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../mail-collector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../sk-env-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../swagger-ui" vcs="Git" />
+  </component>
+</project>

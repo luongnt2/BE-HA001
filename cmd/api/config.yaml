@@ -1,0 +1,4 @@
+logger:
+  mode: "dev"
+  debug: true
+  sensitiveData: false

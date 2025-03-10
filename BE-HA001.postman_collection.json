@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "aa6a070c-da02-46e9-8620-abce44aeac0f",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "product",
+			"item": [
+				{
+					"name": "get products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/products?date_from=174159761",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"products"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Sofa",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "Available,Out of Stock",
+									"disabled": true
+								},
+								{
+									"key": "before_created_at",
+									"value": "174159761",
+									"disabled": true
+								},
+								{
+									"key": "reference",
+									"value": "PROD-202401-003",
+									"disabled": true
+								},
+								{
+									"key": "category",
+									"value": "94d0da61-0bbe-4be8-8435-2b72f03a29ea",
+									"disabled": true
+								},
+								{
+									"key": "price_min",
+									"value": "60",
+									"disabled": true
+								},
+								{
+									"key": "price_max",
+									"value": "30",
+									"disabled": true
+								},
+								{
+									"key": "date_from",
+									"value": "174159761"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "export product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/products/export?date_from=174159761",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"products",
+								"export"
+							],
+							"query": [
+								{
+									"key": "date_from",
+									"value": "174159761"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "location",
+			"item": [
+				{
+					"name": "get distance",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/distance",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"distance"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "statistics",
+			"item": [
+				{
+					"name": "category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "supplier",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/statistics/products-per-supplier",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"statistics",
+								"products-per-supplier"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
